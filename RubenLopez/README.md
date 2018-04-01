@@ -34,22 +34,48 @@ Los datos son lugares turisticos de la ciudad de Bilbao. Por cada lugar turistic
 | COORDENADA_UTM_X   | DOUBLE   | NO | 
 | COORDENADA_UTM_Y   | DOUBLE   | NO | 
 
+
+#### Estrategia de nombrado
+//TODO
+
+#### Desarrollo del vocabulario
+//TODO
+
+
+
 #### Proceso de transformación
 
 Para la transformación del fichero .CSV en el formato RDF se ha realizado lo siguiente:
 
 * Comprobación de los datos
 * Eliminación de la columna no deseada 
+* Reemplazo del caracter , por un espacio
+* Reemplazo del caracter ; por el , 
+* Se sube el fichero a http://levelup.networkedplanet.com para su transformación.
+* Se asignan los tipos de valores y el idioma en caso de ser textos
+* Se descarga el resultado
+
+Las herramientas usadas han sido Notepad++ y la pagina web mencionada .
+
+#### ENLAZADO
+
+//TODO
+
+#### Publicación
+
+Actualmente no se publica en ningún sitio pero se va a añadir a la app Knowlii (www.knowlii.com) de la cual soy el CTO al apartado de Bilbao. A su vez se añadira como 
+formato OPEN a (https://public.knowlii.com).
+
 
 
 
 # 3. Aplicación y explotación
 
 
-# 4. Conclusiones.
+# 4. Conclusiones
 
 
-# 5. Bibliografía.
+# 5. Bibliografía
 
 
 
