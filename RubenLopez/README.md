@@ -36,7 +36,10 @@ Los datos son lugares turisticos de la ciudad de Bilbao. Por cada lugar turistic
 
 #### Proceso de transformación
 
+Para la transformación del fichero .CSV en el formato RDF se ha realizado lo siguiente:
 
+* Comprobación de los datos
+* Eliminación de la columna no deseada 
 
 
 
