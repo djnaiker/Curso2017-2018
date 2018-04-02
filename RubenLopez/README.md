@@ -36,10 +36,36 @@ Los datos son lugares turisticos de la ciudad de Bilbao. Por cada lugar turistic
 
 
 #### Estrategia de nombrado
-//TODO
+
+* Devido a que la cantidad de datos es pequeña se utilizara la # para la formación de las URIs.
+* El dominio de las URIS sera http://public.knowlii.com/city/bilbao/
 
 #### Desarrollo del vocabulario
-//TODO
+
+##### Requisitos
+
+Funcionales:
+
+* RF1 ¿Que categorías de sitios turisticos hay?
+* RF2 ¿Que sitios hay?
+* RF3 Dirección de los sitios en castellano
+* RF4 Dirección de los sitios en euskera.
+
+
+##### Terminos
+
+* NOMBRE_FAMILIA: Tipo de sitio turistico. Sinonimo: atracción, categoría
+* NOMBRE_LUGAR_CAS: Nombre del sitio en castellano. Sininimo: sitio
+* NOMBRE_LUGAR_EUS: Nombre del sitio en euskera. Sininimo: sitio
+* COD_CALLE: codigo identificativo de la calle donde se encuentra
+* NOMBRE_CALLE: nombre de la calle donde se encuentra. Sinonimos: dirección, localización
+* COD_TIPO_VIA: codigo del tipo de via
+* NOMBRE_TIPO_VIA 
+* NUMERO: número de la calle que se encuentra
+* BIS: BIS en caso de existir
+* COORDENADA_UTM_X: posicionamiento.
+* COORDENADA_UTM_Y: posicionamiento.  
+
 
 
 
